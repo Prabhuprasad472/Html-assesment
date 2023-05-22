@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>HTML Assesment</h1>
+    <p>HTML Assesment Form PrePbytes</p>
+    <hr>
+    <h2>form</h2>
+    <label for="name">Name: </label>
+        <input type="text" placeholder="name" id="name" name="username" autocomplete="true" required><br><br>
+        <label for="email">Email id: </label>
+        <input email="email" placeholder="email" id="email" name="email" autocomplete="true" required><br><br>
+        <label for="Pass"> Passward: </label>
+        <input type="password" placeholder="Passward" id="Pass" name="Password"><br><br>
+        <label for="Phone">Phone no: </label>
+        <input type="tel" placeholder="phone number" id="Phone" name="Phone" pattern="[0-9]{10}" required><br><br>
+        <label for="language">Language: </label><br>
+        <input type="radio"  name="language" value="React" id="React"> <label for="React">React</label> <br> 
+        <input type="radio"  name="language" value="Angular" id="Angular"> <label for="Angular">Angular</label> <br>
+        <input type="radio"  name="language" value="vue" id="vue"> <label for="vue">vue</label>  <br><br>
+        <label for="Course">Course:</label><br>
+        <input type="checkbox" name="course1" id="MERN" value="MERN"> <Label for="MERN">MERN</Label><br>
+        <input type="checkbox" name="course2" id="MEAN" value="MEAN"> <Label for="MEAN">MEAN</Label><br>
+        <input type="checkbox" name="course3" id="MEVN" value="MEVN"> <Label for="MEVN">MEVN</Label><br><br>
+        <select name="Field" id="drop" required>
+            <option value="FrontEnd">Select</option>   
+            <option value="FrontEnd">FrontEnd</option>
+            <option value="BackEnd">BackEnd</option>
+            <option value="FullStack">Fullstack</option>
+        </select>
+           <br><br>
+           <input type="submit" value="submit"><br><br>
+        <hr>
+        <p>Image used from absolute path </p>
+        <img src="./logoPrepBytes.svg" alt="image not found">
+        <p>Image used from Relavent path</p>
+        <img src="" alt="image"><br>
+        <a href="http://www.prepbytes.com">Link should be open in another tab</a><br>
+        <a href="http://www.prepbytes.com">Link should be open in another tab</a>
+</center>
+<hr>
+<h2>Lists</h2>
+<ul>
+    <li>Mobile developement</li>
+    <li>web developement</li>
+<ul>
+    <li>React</li>
+    <li>Angular</li>
+    <li>vue</li>
+</ul>
+<li>Cloud server</li>
+</ul>
+<hr>
+<center>
+<h2>Table</h2>
+       <table border="1px" width="50%">
+    
+    <tr>
+    <th>Course</th>
+    <th colspan="2">Contact details</th>
+    <th>Date of Joining</th>
+    </tr>
+    
+    <tr>
+    <th>Elevation Acadamy</th>
+    <th colspan="2">1234567890</th>
+    <th colspan="">2decemer 2022</th>
+    </tr>
+    
+    
+    
+    <th>Elavatin academy</th>
+    <th rowspan="2">1234567890</th>
+    <th colspan="2">2 December 2022</th>
+    </tr>
+    
+    <tr>
+    <th>Elevator academy</th>
+    <th>2 December 2022</th>
+    
+    </tr>
+    
+    </table>
+</center>
+<hr>
+</body>
+</html>
